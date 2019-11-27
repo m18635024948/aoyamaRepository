@@ -1733,7 +1733,7 @@ function checkboxOnclick(checkbox){
 		}
 }
 
-//金額フォーマット
+//    金額フォーマット
 function formatMoney(number, places, symbol, thousand, decimal) {
     number = number || 0;
     places = !isNaN(places = Math.abs(places)) ? places : 2;
