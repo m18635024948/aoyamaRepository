@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: co.jp.aoyama.macchinetta.selenium.welcome.HelloIT
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.324 sec <<< FAILURE! - in co.jp.aoyama.macchinetta.selenium.welcome.HelloIT
+testHelloWorld(co.jp.aoyama.macchinetta.selenium.welcome.HelloIT)  Time elapsed: 0.001 sec  <<< ERROR!
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'co.jp.aoyama.macchinetta.selenium.welcome.HelloIT': Unsatisfied dependency expressed through field 'webDriver'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.openqa.selenium.WebDriver' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.inject.Inject()}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.openqa.selenium.WebDriver' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.inject.Inject()}
+
